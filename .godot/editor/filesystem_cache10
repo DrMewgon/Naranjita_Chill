@@ -1,0 +1,104 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1752617467
+button_theme.tres::Theme/Theme::529039705366731601::1752602114::0::1::::<><><>0<>0<><>::uid://bml3yw17k648b::::res://Resources/fonts/BalsamiqSans-Regular.ttf
+export_presets.cfg::TextFile/TextFile::-1::1752519073::0::1::::<><><>0<>0<><>::
+flotaranja.tscn::PackedScene/PackedScene::4833172425189921341::1752369170::0::1::::<><><>0<>0<><>::uid://dlxcy2kf7bki7::::res://Resources/meshes/Naranjita Veraniega2.glb<>uid://c2yiligxjyqh2::::res://Resources/shaders/flotador.tres<>uid://clc7ug8j0s6ph::::res://Resources/shaders/Naranjita.tres
+game.tscn::PackedScene/PackedScene::8341065685060323959::1752614592::0::1::::<><><>0<>0<><>::uid://cm8u7h6eqr8mv::::res://scenes/gamescene.gd
+icon.svg::CompressedTexture2D/CompressedTexture2D::6648060606751463208::1752084991::1752085060::1::::<><><>0<>0<>e8065369df49afbd0367c9236081d069<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+naranjita_veraniega_2.res::PackedScene/PackedScene::8505537853209381231::1752400709::0::1::::<><><>0<>0<><>::uid://dlxcy2kf7bki7::::res://Resources/meshes/Naranjita Veraniega2.glb<>uid://c2yiligxjyqh2::::res://Resources/shaders/flotador.tres<>uid://clc7ug8j0s6ph::::res://Resources/shaders/Naranjita.tres
+::res://blendcache_Naranjita VeraniegaGodot1/::1752345706
+::res://Resources/::1752614587
+Naranjita VeraniegaGodot1.blend::PackedScene/PackedScene::9190554755903962672::1752345691::1752346035::1::::<><><>0<>0<>6378719e87851738349f4857eb1e914a<>res://.godot/imported/Naranjita VeraniegaGodot1.blend-c34c315589ec553d29898f9ed55ce955.scn::
+naranjita_veraniega_godot_1.tscn::PackedScene/PackedScene::9196242368784058949::1752369049::0::1::::<><><>0<>0<><>::uid://d368dg0o8ml5y::::res://Resources/Naranjita VeraniegaGodot1.blend<>uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://c2yiligxjyqh2::::res://Resources/shaders/flotador.tres<>uid://c4a43gdy2d6rs::::res://Resources/img/piscina/fondo_piscina_foam.png<>uid://wq1j2llkkxdg::::res://Resources/img/piscina/fondo_piscina.tile.png<>uid://clc7ug8j0s6ph::::res://Resources/shaders/Naranjita.tres<>uid://cssgxjhja6ltx::::res://Resources/shaders/agua.tres
+player.gd::GDScript/GDScript::7509001196140073242::1752614587::0::1::::<>Node3D<><>0<>0<><>::
+::res://Resources/audio/::1752282561
+::res://Resources/audio/music/::1752282651
+pop-happy-travel-tropical-365387.mp3::AudioStreamMP3/AudioStreamMP3::7631024530349562655::1752282650::1752282651::1::::<><><>0<>0<>b7f172b0d7dd5e7b52cf4beef2b7ee79<>res://.godot/imported/pop-happy-travel-tropical-365387.mp3-72f86f493fe6a1aa412b8c8b778a7554.mp3str::
+::res://Resources/audio/sfx/::1752282578
+water-splash-02-352021.mp3::AudioStreamMP3/AudioStreamMP3::7344838364973700096::1752282577::1752282578::1::::<><><>0<>0<>102e5c785df1ea0266ab0a49b10bfb70<>res://.godot/imported/water-splash-02-352021.mp3-d48db03ac116932dc5d9bdffb017527c.mp3str::
+::res://Resources/blendcache_Naranjita Veraniega1/::1752345450
+::res://Resources/blendcache_Naranjita VeraniegaGodot/::1752340024
+::res://Resources/blendcache_Naranjita VeraniegaGodot1/::1752346025
+::res://Resources/fonts/::1752277529
+BalsamiqSans-Regular.ttf::FontFile/FontFile::3253139094642493679::1752259769::1752260356::1::::<><><>0<>0<>f0c6c3a6fa5cccedbe4131a92492b5da<>res://.godot/imported/BalsamiqSans-Regular.ttf-895b0f18a6eeb89e43a16e60aa7b6c0d.fontdata::
+HalenciaRound-1GyMe.ttf::FontFile/FontFile::3804409144474473032::1752277529::1752277529::1::::<><><>0<>0<>669a8ca2afad09015d65da1da78d544e<>res://.godot/imported/HalenciaRound-1GyMe.ttf-a861a246a3a1fd725a035ee44819ef87.fontdata::
+::res://Resources/img/::1752602114
+new_noise_texture_2d.tres::NoiseTexture2D/NoiseTexture2D::4505728435519544468::1752602114::0::1::::<><><>0<>0<><>::
+::res://Resources/img/blendcache_Naranjita Veraniega1/::1752339555
+::res://Resources/img/Naranjita/::1752588908
+Naranjita_Diffuse.png::CompressedTexture2D/CompressedTexture2D::3754820471230894884::1752348960::1752348988::1::::<><><>0<>0<>f3e721c6eb53001a9c5fca694772695f<>res://.godot/imported/Naranjita_Diffuse.png-5e71eecb20dc02e399fdd77f1ecfbc94.s3tc.ctex::
+Naranjita_Diffuse_bright.png::CompressedTexture2D/CompressedTexture2D::2369863852524344884::1752588539::1752588908::1::::<><><>0<>0<>2946b16636da316b5766f9db68c24b10<>res://.godot/imported/Naranjita_Diffuse_bright.png-e4443509ef05021a8b311302b7be1509.s3tc.ctex::
+Naranjita_Normal - Copy.png::CompressedTexture2D/CompressedTexture2D::784526960096657647::1752423357::1752510696::1::::<><><>0<>0<>2c824bd71f00fcf0d7752231f54ee3be<>res://.godot/imported/Naranjita_Normal - Copy.png-409e23a87b31d265980873f27180443b.s3tc.ctex::
+Naranjita_Normal.png::CompressedTexture2D/CompressedTexture2D::4750541890352671131::1752423343::1752423331::1::::<><><>0<>0<>f3cfa16a58dd6b4df2841dde1dbcff8f<>res://.godot/imported/Naranjita_Normal.png-e8e26c87aa7ffff0ccafe157fb890470.s3tc.ctex::
+::res://Resources/img/piscina/::1752603613
+fondo_piscina.foam.png::CompressedTexture2D/CompressedTexture2D::4394084710369309931::1752511502::1752511531::1::::<><><>0<>0<>ec6f711f8beb601f106c4456647f9356<>res://.godot/imported/fondo_piscina.foam.png-ae85ffae2e727fc2145b7aa84d9abe60.s3tc.ctex::
+fondo_piscina.foam_alpha.png::CompressedTexture2D/CompressedTexture2D::5082600824888209336::1752511940::1752511941::1::::<><><>0<>0<>dc5f9ef4e5305e532f1a4f7cdbb263a5<>res://.godot/imported/fondo_piscina.foam_alpha.png-697c117c51a536ec46171b2aebf5c257.s3tc.ctex::
+fondo_piscina.png::CompressedTexture2D/CompressedTexture2D::3615044489437887283::1752260396::1752348935::1::::<><><>0<>0<>c29d819e8ab698a233c76eba80895235<>res://.godot/imported/fondo_piscina.png-d23072f485bc25fef9bbd117ed1742d9.s3tc.ctex::
+fondo_piscina.tile.png::CompressedTexture2D/CompressedTexture2D::1578780753695616216::1752096228::1752601242::1::::<><><>0<>0<>58e1521268c4aa3684cef2db0d241cb3<>res://.godot/imported/fondo_piscina.tile.png-7f85976c522a8d31604a4ca69b6bf253.s3tc.ctex::
+fondo_piscina.tile_normal.png::CompressedTexture2D/CompressedTexture2D::4006212156866103967::1752600937::1752600938::1::::<><><>0<>0<>5e7d45df9f523436a762e7e85c84b978<>res://.godot/imported/fondo_piscina.tile_normal.png-9968b3862cd85cedb4d987c10304f414.s3tc.ctex::
+fondo_piscina_flat.png::CompressedTexture2D/CompressedTexture2D::1820243246549102196::1752260396::1752348935::1::::<><><>0<>0<>e14f047e52502326379dfa10b9a37b5c<>res://.godot/imported/fondo_piscina_flat.png-08b65a132bd3b609f67f78edf460fddd.s3tc.ctex::
+fondo_piscina_foam.png::CompressedTexture2D/CompressedTexture2D::6810128948809905496::1752334610::1752366312::1::::<><><>0<>0<>f8990ace241478a39064780498bf1add<>res://.godot/imported/fondo_piscina_foam.png-4f0609d620e8a877c8a6884eef0e9cd4.s3tc.ctex::
+fondo_piscina_foam_3.png::CompressedTexture2D/CompressedTexture2D::1931452893824336581::1752535366::1752603613::1::::<><><>0<>0<>e72b8e6c7dd1dfa3f2097ccab5512867<>res://.godot/imported/fondo_piscina_foam_3.png-c72a5c460b4c019c86eecc617bd8cda8.s3tc.ctex::
+fondo_piscina_foam_strong.png::CompressedTexture2D/CompressedTexture2D::8536637602704709912::1752535185::1752535189::1::::<><><>0<>0<>a8059fa0ad253ffaca86edcd7ff2e237<>res://.godot/imported/fondo_piscina_foam_strong.png-eddb96ca0c496e35c0cd437038bc8328.s3tc.ctex::
+piscina_foam.png::CompressedTexture2D/CompressedTexture2D::7659587048842539897::1752535728::1752535741::1::::<><><>0<>0<>ca202b2436389efde7b5951721261da5<>res://.godot/imported/piscina_foam.png-b3d9569fa37bdf42ad345c5a5ca44d01.s3tc.ctex::
+::res://Resources/img/UI/::1752348932
+round_button.png::CompressedTexture2D/CompressedTexture2D::6732938462703343688::1752347098::1752347099::1::::<><><>0<>0<>9c95b41906a82a476ee76c1c198fccfb<>res://.godot/imported/round_button.png-1ec75e0646e7dc3cae1f000a9977f2ce.ctex::
+round_button.tres::ImageTexture/ImageTexture::7896104558034894404::1752315234::0::1::::<><><>0<>0<><>::
+round_button_orange.png::CompressedTexture2D/CompressedTexture2D::8694304288216412137::1752313829::1752313852::1::::<><><>0<>0<>4ca65d5babb851e5fd2f63cfea4de883<>res://.godot/imported/round_button_orange.png-a12762e2a2c0eeff8f14c742515be95e.ctex::
+start_color_palette.tres::ColorPalette/ColorPalette::4046666117859707978::1752310626::0::1::::<><><>0<>0<><>::
+::res://Resources/meshes/::1752616888
+agua.glb::PackedScene/PackedScene::7685270709084908651::1752370042::1752371178::1::::<><><>0<>0<>108c0b951f44fc81cf4928db6bf3280b<>res://.godot/imported/agua.glb-0f930c2ace64bceadba8e8e90c62c0ed.scn::uid://ym1d1kfuv47g::::res://Resources/meshes/agua.res
+agua.res::ArrayMesh/ArrayMesh::1710890160865049026::1752614384::0::1::::<><><>0<>0<><>::uid://2ru0nrahxh3j::::res://Resources/img/piscina/fondo_piscina_foam_3.png
+agua_tormenta.res::ArrayMesh/ArrayMesh::7061481167891911330::1752397765::0::1::::<><><>0<>0<><>::uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://b5guxor7cubxc::::res://Resources/img/new_noise_texture_2d.tres
+flor.tres::ArrayMesh/ArrayMesh::3430947535285698714::1752403527::0::1::::<><><>0<>0<><>::
+flotador.tres::ArrayMesh/ArrayMesh::1918098563227651529::1752511775::0::1::::<><><>0<>0<><>::
+flotaranja.tres::ArrayMesh/ArrayMesh::1000099689315138916::1752404386::0::1::::<><><>0<>0<><>::uid://2le2km8v1lob::::res://Resources/meshes/flotador.tres
+gafas.tres::ArrayMesh/ArrayMesh::1446644711465895037::1752403531::0::1::::<><><>0<>0<><>::
+hoja.tres::ArrayMesh/ArrayMesh::1714539101799361715::1752403531::0::1::::<><><>0<>0<><>::
+naaaaaaaaaaaaaa.tres::VisualShader::1008316593786379960::1752616888::0::1::::<><><>0<>0<><>::
+Naranjita Veraniega2.glb::PackedScene/PackedScene::7978985746328773760::1752368316::1752403898::1::::<><><>0<>0<>55b16d63dca38e773b84a84afedfbcaa<>res://.godot/imported/Naranjita Veraniega2.glb-69b9b2c494a9975a71705545ce792f72.scn::uid://2le2km8v1lob::::res://Resources/meshes/flotador.tres
+naranjita.res::ArrayMesh/ArrayMesh::1712924877741443611::1752404386::0::1::::<><><>0<>0<><>::uid://clc7ug8j0s6ph::::res://Resources/shaders/Naranjita.tres
+naranjita.tres::ArrayMesh/ArrayMesh::3840332947924877143::1752602114::0::1::::<><><>0<>0<><>::uid://dm1ogxqk1tx6k::::res://Resources/shaders/naran.tres
+piscina.glb::PackedScene/PackedScene::7424562562945091091::1752370042::1752370825::1::::<><><>0<>0<>7155714a4fe4005667246093c170441e<>res://.godot/imported/piscina.glb-fd84631c55a69b6a0a65e7c2f1b95d71.scn::uid://qmxfk4560v85::::res://Resources/meshes/piscina.res
+piscina.res::ArrayMesh/ArrayMesh::1149200022498715276::1752614384::0::1::::<><><>0<>0<><>::uid://wq1j2llkkxdg::::res://Resources/img/piscina/fondo_piscina.tile.png<>uid://bxcvy1va5gcrf::::res://Resources/img/piscina/fondo_piscina.tile_normal.png
+vaso.glb::PackedScene/PackedScene::7504273298661865118::1752370042::1752371355::1::::<><><>0<>0<>982170d0fed306462612ef2a2d81f8d4<>res://.godot/imported/vaso.glb-6d3f10f7688a692827ce5a8e271fd228.scn::uid://dxd1iiy8c2llk::::res://Resources/meshes/vaso.res
+vaso.res::ArrayMesh/ArrayMesh::8781391974944617668::1752371355::0::1::::<><><>0<>0<><>::
+::res://Resources/shaders/::1752616888
+agua.tres::VisualShader::6073805211594205217::1752616887::0::1::::<><><>0<>0<><>::uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://c4a43gdy2d6rs::::res://Resources/img/piscina/fondo_piscina_foam.png
+aguatut.tres::StandardMaterial3D/StandardMaterial3D::4149181593314884644::1752392893::0::1::::<><><>0<>0<><>::uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png
+aguatut_shader.tres::ShaderMaterial/ShaderMaterial::8468880894552707138::1752393564::0::1::::<><><>0<>0<><>::uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png
+agua_fondo.tres::ShaderMaterial/ShaderMaterial::1641647288836966716::1752600725::0::1::::<><><>0<>0<><>::
+blue_water.tres::StandardMaterial3D/StandardMaterial3D::6904163911635786371::1752602114::0::1::::<><><>0<>0<><>::
+bottom water.tscn::PackedScene/PackedScene::4669486002475003842::1752515286::0::1::::<><><>0<>0<><>::uid://dhq2jyk8msuql::::res://Resources/meshes/agua.glb<>uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://b5guxor7cubxc::::res://Resources/img/new_noise_texture_2d.tres
+flotador2.tres::Shader::6969533639624569751::1752616887::0::1::::<><><>0<>0<><>::
+flotador.tres::VisualShader::6717991021899228153::1752616888::0::1::::<><><>0<>0<><>::uid://b5guxor7cubxc::::res://Resources/img/new_noise_texture_2d.tres
+foam.tres::VisualShader::2279371570892145755::1752616887::0::1::::<><><>0<>0<><>::uid://c4a43gdy2d6rs::::res://Resources/img/piscina/fondo_piscina_foam.png
+lapras.gdshader::Shader::1026194581843176599::1752616887::0::1::::<><><>0<>0<><>::
+lapras.tres::Shader::7084001685740731449::1752616887::0::1::::<><><>0<>0<><>::
+main_menu.tres::VisualShader::2780492557338769578::1752616887::0::1::::<><><>0<>0<><>::
+naran.tres::StandardMaterial3D/StandardMaterial3D::8056063982247203196::1752602114::0::1::::<><><>0<>0<><>::uid://808kt8v50vgm::::res://Resources/img/Naranjita/Naranjita_Diffuse_bright.png<>uid://lgbbrltkvhop::::res://Resources/img/Naranjita/Naranjita_Normal - Copy.png
+Naranja textura.tres::VisualShader::5145616732293830629::1752616887::0::1::::<><><>0<>0<><>::uid://lgbbrltkvhop::::res://Resources/img/Naranjita/Naranjita_Normal - Copy.png
+Naranjita.tres::VisualShader::5551026429121020289::1752616887::0::1::::<><><>0<>0<><>::uid://btq4lylga46q7::::res://Resources/img/Naranjita/Naranjita_Diffuse.png<>uid://b8xgy35fth16n::::res://Resources/img/Naranjita/Naranjita_Normal.png
+naranjita_veraniega_godot_1.gdshader::Shader::3524130491995023072::1752616887::0::1::::<><><>0<>0<><>::
+oranshade.gdshader::Shader::914246503666135195::1752616887::0::1::::<><><>0<>0<><>::
+tut.tres::VisualShader::597352881041423300::1752616887::0::1::::<><><>0<>0<><>::
+water.tres::VisualShader::4063356545073310233::1752616887::0::1::::<><><>0<>0<><>::
+waterB.gdshader::Shader::5934511407256369057::1752616888::0::1::::<><><>0<>0<><>::
+waterC.tres::Shader::544375980876079414::1752616888::0::1::::<><><>0<>0<><>::
+::res://scenes/::1752616888
+bobbing.gd::GDScript/GDScript::4251092759883598040::1752517541::0::1::::<>AnimationPlayer<><>0<>0<><>::
+game.gd::GDScript/GDScript::9084473927054214890::1752600308::0::1::::<>Node3D<><>0<>0<><>::
+game.tscn::PackedScene/PackedScene::3189348266882021350::1752614590::0::1::::<><><>0<>0<><>::uid://b5guxor7cubxc::::res://Resources/img/new_noise_texture_2d.tres<>uid://ym1d1kfuv47g::::res://Resources/meshes/agua.res<>uid://d2ot7t227udio::::res://scenes/game.gd<>uid://de6ejxjnfsxd3::::res://Resources/meshes/vaso.glb<>uid://c5motn8gqwnt0::::res://Resources/shaders/blue_water.tres<>uid://de8ofgov1ed2y::::res://Resources/player.gd<>uid://qmxfk4560v85::::res://Resources/meshes/piscina.res<>uid://b1ti42omev4o7::::res://scenes/bobbing.gd<>uid://buyjytj84bunv::::res://Resources/meshes/naranjita.tres<>uid://c2yiligxjyqh2::::res://Resources/shaders/flotador.tres<>uid://dxd1iiy8c2llk::::res://Resources/meshes/vaso.res<>uid://cvx25sumsuipu::::res://scenes/naranjita.gd
+gamescene.gd::GDScript/GDScript::5684503857943067001::1752406623::0::1::::<>Control<><>0<>0<><>::
+general.gd::GDScript/GDScript::7384477956056787549::1752521262::0::1::::<>Control<><>0<>0<><>::
+general.tscn::PackedScene/PackedScene::6984648476781830342::1752614589::0::1::::<><><>0<>0<><>::uid://ddhdjjv8ikyy4::::res://scenes/general.gd<>uid://dgyr4heniivdf::::res://Resources/audio/music/pop-happy-travel-tropical-365387.mp3<>uid://cnin1tm5lejtl::::res://scenes/main_menu.tscn<>uid://dcv5odqnf4j1q::::res://Resources/audio/sfx/water-splash-02-352021.mp3<>uid://btyxh0teb5hyk::::res://scenes/test_options_menu.tscn<>uid://blo7dnt32juc1::::res://scenes/game.tscn
+main.gd::GDScript/GDScript::2085249376009460191::1752516230::0::1::::<>Node<><>0<>0<><>::
+main_menu.tscn::PackedScene/PackedScene::5702648126119829061::1752614587::0::1::::<><><>0<>0<><>::uid://cypah0y3f7tl7::::res://scenes/options_menu_click.gd<>uid://hsjha5k2p84l::::res://button_theme.tres<>uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://c4a43gdy2d6rs::::res://Resources/img/piscina/fondo_piscina_foam.png<>uid://7qe6f1bax1md::::res://Resources/shaders/foam.tres<>uid://bug5ceto8rmlk::::res://Resources/fonts/HalenciaRound-1GyMe.ttf<>uid://dcv5odqnf4j1q::::res://Resources/audio/sfx/water-splash-02-352021.mp3<>uid://bfu5kn7jesc6u::::res://Resources/shaders/main_menu.tres
+naranjita.gd::GDScript/GDScript::6295981681636564338::1752518020::0::1::::<>MeshInstance3D<><>0<>0<><>::
+node_3d.gdshader::Shader::3450183986014951188::1752616888::0::1::::<><><>0<>0<><>::
+node_3d.tres::VisualShader::7844084176755033444::1752616888::0::1::::<><><>0<>0<><>::
+old_game_scene.tscn::PackedScene/PackedScene::7828928357461771784::1752407740::0::1::::<><><>0<>0<><>::uid://dhq2jyk8msuql::::res://Resources/meshes/agua.glb<>uid://dlxcy2kf7bki7::::res://Resources/meshes/Naranjita Veraniega2.glb<>uid://dd1rpwsfj4f0v::::res://Resources/meshes/piscina.glb<>uid://de6ejxjnfsxd3::::res://Resources/meshes/vaso.glb<>uid://de8ofgov1ed2y::::res://Resources/player.gd<>uid://c6kdg3dttd8mt::::res://Resources/shaders/flotador2.tres<>uid://buyjytj84bunv::::res://Resources/meshes/naranjita.tres
+options_menu_click.gd::GDScript/GDScript::6488353133006423474::1752521262::0::1::::<>Control<><>0<>0<><>::
+test_options_menu.gd::GDScript/GDScript::8846509259756277598::1752521684::0::1::::<>Control<><>0<>0<><>::
+test_options_menu.tscn::PackedScene/PackedScene::3770964112923417494::1752614587::0::1::::<><><>0<>0<><>::uid://dybkykta75yj3::::res://scenes/test_options_menu.gd<>uid://hsjha5k2p84l::::res://button_theme.tres<>uid://bml3yw17k648b::::res://Resources/fonts/BalsamiqSans-Regular.ttf<>uid://060e1hr03k5a::::res://Resources/img/piscina/fondo_piscina_flat.png<>uid://dv4t6ldwewxa4::::res://Resources/img/UI/round_button_orange.png<>uid://c26qro1ssbra3::::res://Resources/img/UI/round_button.png<>uid://7qe6f1bax1md::::res://Resources/shaders/foam.tres<>uid://c4a43gdy2d6rs::::res://Resources/img/piscina/fondo_piscina_foam.png
+vaso.tscn::PackedScene/PackedScene::8165399292114025328::1752579506::0::1::::<><><>0<>0<><>::uid://de6ejxjnfsxd3::::res://Resources/meshes/vaso.glb

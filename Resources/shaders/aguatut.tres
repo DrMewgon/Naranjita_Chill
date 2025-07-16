@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b0d5odk74i6ay"]
+
+[ext_resource type="Texture2D" uid="uid://060e1hr03k5a" path="res://Resources/img/piscina/fondo_piscina_flat.png" id="1_p4deh"]
+
+[resource]
+resource_name = "Agua"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_p4deh")
+metallic = 1.0
+roughness = 0.6
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.2

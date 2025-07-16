@@ -1,0 +1,70 @@
+[gd_resource type="VisualShader" load_steps=8 format=3 uid="uid://cssgxjhja6ltx"]
+
+[ext_resource type="Texture2D" uid="uid://060e1hr03k5a" path="res://Resources/img/piscina/fondo_piscina_flat.png" id="1_hi54p"]
+[ext_resource type="Texture2D" uid="uid://c4a43gdy2d6rs" path="res://Resources/img/piscina/fondo_piscina_foam.png" id="2_j2g8l"]
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_1103c"]
+output_port_for_preview = 4
+expanded_output_ports = [0]
+texture = ExtResource("1_hi54p")
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_u6yox"]
+expanded_output_ports = [0]
+texture = ExtResource("2_j2g8l")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="VisualShaderNodeFloatConstant_7ucck"]
+constant = 3.0
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_1103c"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeVectorOp" id="VisualShaderNodeVectorOp_1103c"]
+default_input_values = [0, Vector2(0, 0), 1, Vector2(3, 3)]
+op_type = 0
+operator = 2
+
+[resource]
+code = "shader_type spatial;
+render_mode blend_mix, depth_draw_opaque, cull_back, diffuse_lambert, specular_schlick_ggx;
+
+uniform sampler2D tex_frg_2;
+uniform sampler2D tex_frg_3;
+
+
+
+void fragment() {
+// Input:5
+	vec2 n_out5p0 = UV;
+
+
+// VectorOp:7
+	vec2 n_in7p1 = vec2(3.00000, 3.00000);
+	vec2 n_out7p0 = n_out5p0 * n_in7p1;
+
+
+// Texture2D:2
+	vec4 n_out2p0 = texture(tex_frg_2, n_out7p0);
+
+
+// Texture2D:3
+	vec4 n_out3p0 = texture(tex_frg_3, UV);
+
+
+// Output:0
+	ALBEDO = vec3(n_out2p0.xyz);
+	ALPHA = n_out3p0.x;
+
+
+}
+"
+nodes/fragment/2/node = SubResource("VisualShaderNodeTexture_1103c")
+nodes/fragment/2/position = Vector2(-700, -40)
+nodes/fragment/3/node = SubResource("VisualShaderNodeTexture_u6yox")
+nodes/fragment/3/position = Vector2(40, 340)
+nodes/fragment/4/node = SubResource("VisualShaderNodeFloatConstant_7ucck")
+nodes/fragment/4/position = Vector2(-300, 400)
+nodes/fragment/5/node = SubResource("VisualShaderNodeInput_1103c")
+nodes/fragment/5/position = Vector2(-1740, 120)
+nodes/fragment/7/node = SubResource("VisualShaderNodeVectorOp_1103c")
+nodes/fragment/7/position = Vector2(-1260, 80)
+nodes/fragment/connections = PackedInt32Array(2, 0, 0, 0, 3, 0, 0, 1, 5, 0, 7, 0, 7, 0, 2, 0)

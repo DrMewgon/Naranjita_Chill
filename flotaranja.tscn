@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://ca4hv5ejto6ll"]
+
+[ext_resource type="PackedScene" uid="uid://dlxcy2kf7bki7" path="res://Resources/meshes/Naranjita Veraniega2.glb" id="1_lvb56"]
+[ext_resource type="Shader" uid="uid://c2yiligxjyqh2" path="res://Resources/shaders/flotador.tres" id="2_ylhx3"]
+[ext_resource type="Shader" uid="uid://clc7ug8j0s6ph" path="res://Resources/shaders/Naranjita.tres" id="3_7ylck"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_651n8"]
+render_priority = 0
+shader = ExtResource("2_ylhx3")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_i0pqn"]
+render_priority = 0
+shader = ExtResource("3_7ylck")
+
+[node name="Naranjita Veraniega2" instance=ExtResource("1_lvb56")]
+
+[node name="Flotador" parent="Armature" index="0"]
+surface_material_override/0 = SubResource("ShaderMaterial_651n8")
+
+[node name="Naranjita" parent="Armature/Skeleton3D" index="3"]
+surface_material_override/0 = SubResource("ShaderMaterial_i0pqn")

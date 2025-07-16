@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=3 uid="uid://c6roe01kpe3w1"]
+
+[ext_resource type="Script" uid="uid://ddhdjjv8ikyy4" path="res://scenes/general.gd" id="1_1aar8"]
+[ext_resource type="AudioStream" uid="uid://dgyr4heniivdf" path="res://Resources/audio/music/pop-happy-travel-tropical-365387.mp3" id="2_gy7hs"]
+[ext_resource type="PackedScene" uid="uid://cnin1tm5lejtl" path="res://scenes/main_menu.tscn" id="3_fdh1j"]
+[ext_resource type="AudioStream" uid="uid://dcv5odqnf4j1q" path="res://Resources/audio/sfx/water-splash-02-352021.mp3" id="3_gy7hs"]
+[ext_resource type="PackedScene" uid="uid://btyxh0teb5hyk" path="res://scenes/test_options_menu.tscn" id="4_7h5e4"]
+[ext_resource type="PackedScene" uid="uid://blo7dnt32juc1" path="res://scenes/game.tscn" id="6_fdh1j"]
+
+[node name="General" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1aar8")
+
+[node name="MainMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_gy7hs")
+volume_db = -8.0
+autoplay = true
+parameters/looping = false
+
+[node name="ButtonSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_gy7hs")
+volume_db = -8.0
+
+[node name="MainMenu" parent="." instance=ExtResource("3_fdh1j")]
+visible = false
+layout_mode = 1
+
+[node name="TestOptionsMenu" parent="." instance=ExtResource("4_7h5e4")]
+visible = false
+layout_mode = 1
+
+[node name="Game" parent="." instance=ExtResource("6_fdh1j")]
+visible = false

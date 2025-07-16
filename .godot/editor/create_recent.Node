@@ -1,0 +1,14 @@
+MeshInstance3D
+AudioStreamPlayer2D
+Control
+AnimationPlayer
+OmniLight3D
+DirectionalLight3D
+Camera3D
+Node3D
+AudioStreamPlayer
+Container
+ColorRect
+TextureRect
+Panel
+Camera2D

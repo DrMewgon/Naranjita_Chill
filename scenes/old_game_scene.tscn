@@ -1,0 +1,112 @@
+[gd_scene load_steps=12 format=3 uid="uid://djsnkn86xtiuy"]
+
+[ext_resource type="PackedScene" uid="uid://dhq2jyk8msuql" path="res://Resources/meshes/agua.glb" id="1_jcyfo"]
+[ext_resource type="PackedScene" uid="uid://dlxcy2kf7bki7" path="res://Resources/meshes/Naranjita Veraniega2.glb" id="2_cvhg0"]
+[ext_resource type="PackedScene" uid="uid://dd1rpwsfj4f0v" path="res://Resources/meshes/piscina.glb" id="2_hf71d"]
+[ext_resource type="PackedScene" uid="uid://de6ejxjnfsxd3" path="res://Resources/meshes/vaso.glb" id="3_1bksl"]
+[ext_resource type="Script" uid="uid://de8ofgov1ed2y" path="res://Resources/player.gd" id="4_erbjn"]
+[ext_resource type="Shader" uid="uid://c6kdg3dttd8mt" path="res://Resources/shaders/flotador2.tres" id="6_1bksl"]
+[ext_resource type="ArrayMesh" uid="uid://buyjytj84bunv" path="res://Resources/meshes/naranjita.tres" id="7_erbjn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cvten"]
+render_priority = 1
+shader = ExtResource("6_1bksl")
+
+[sub_resource type="Animation" id="Animation_hf71d"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Node3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_jcyfo"]
+resource_name = "flotacion"
+length = 16.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Node3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4, 8, 12, 16),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -0.767059, 0), Vector3(0, 0, 0), Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1bksl"]
+_data = {
+&"RESET": SubResource("Animation_hf71d"),
+&"flotacion": SubResource("Animation_jcyfo")
+}
+
+[node name="demo3d_main" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.995227, 0.0701953, -0.0677868, 0, 0.694658, 0.71934, 0.0975829, -0.715907, 0.691343, -2.50449, 10.3923, 16.9656)
+visible = false
+light_energy = 2.0
+shadow_enabled = true
+
+[node name="agua" parent="." instance=ExtResource("1_jcyfo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.55344, 0, 2.89333)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="agua"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55344, -0.36853, -2.89333)
+layers = 2
+
+[node name="agua2" parent="." instance=ExtResource("1_jcyfo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.55344, -1.03326, 2.89333)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="agua2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55344, -0.36853, -2.89333)
+visible = false
+layers = 2
+
+[node name="piscina" parent="." instance=ExtResource("2_hf71d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.55344, 0, 11.1196)
+
+[node name="vaso" parent="." instance=ExtResource("3_1bksl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.55344, 0, 11.1196)
+visible = false
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("4_erbjn")
+speed = 1.0
+
+[node name="Naranjita Veraniega2" parent="Node3D" instance=ExtResource("2_cvhg0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.84457, 0, 2.04639)
+
+[node name="Flotador" parent="Node3D/Naranjita Veraniega2/Armature" index="0"]
+material_overlay = SubResource("ShaderMaterial_cvten")
+transparency = 0.2
+
+[node name="Naranjita" parent="Node3D/Naranjita Veraniega2/Armature/GeneralSkeleton" index="3"]
+mesh = ExtResource("7_erbjn")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.670712, 0.741718, 0, -0.741718, 0.670712, -3.72, 8.23466, 11.5322)
+fov = 44.7
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.796, 23.8566, 6.48303)
+light_energy = 90.0
+light_size = 0.313
+omni_range = 32.6191
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="OmniLight3D2"]
+libraries = {
+&"": SubResource("AnimationLibrary_1bksl")
+}
+
+[editable path="Node3D/Naranjita Veraniega2"]

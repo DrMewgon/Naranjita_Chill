@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dolm6y73m0f0c"]
+
+[ext_resource type="PackedScene" uid="uid://de6ejxjnfsxd3" path="res://Resources/meshes/vaso.glb" id="1_shiwy"]
+
+[node name="vaso" instance=ExtResource("1_shiwy")]

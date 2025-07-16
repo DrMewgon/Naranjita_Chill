@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://hsjha5k2p84l"]
+
+[ext_resource type="FontFile" uid="uid://bml3yw17k648b" path="res://Resources/fonts/BalsamiqSans-Regular.ttf" id="1_y3u7b"]
+
+[resource]
+default_font = ExtResource("1_y3u7b")
+default_font_size = 20
+Button/colors/font_color = Color(1, 0.584314, 0.0627451, 1)
+Button/colors/font_hover_color = Color(1, 0.584314, 0.0627451, 1)
+Button/colors/font_hover_pressed_color = Color(1, 0.584314, 0.0627451, 1)
+Button/colors/font_outline_color = Color(0.690196, 0.0980392, 0, 1)
+Button/colors/font_pressed_color = Color(1, 0.584314, 0.0627451, 1)
+Button/constants/outline_size = 23
+Button/font_sizes/font_size = 70
+Button/fonts/font = ExtResource("1_y3u7b")
+CheckButton/colors/font_color = Color(1, 0.490196, 0.0431373, 1)
+CheckButton/colors/font_pressed_color = Color(1, 0.490196, 0.0431373, 1)
+CheckButton/colors/icon_normal_color = Color(1, 0.490196, 0.0431373, 1)
+CheckButton/font_sizes/font_size = 32
+CheckButton/fonts/font = ExtResource("1_y3u7b")
+CheckButton/icons/unchecked = null

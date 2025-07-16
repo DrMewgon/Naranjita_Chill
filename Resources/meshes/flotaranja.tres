@@ -1,0 +1,6 @@
+[gd_resource type="ArrayMesh" load_steps=2 format=3 uid="uid://oipq4du1526k"]
+
+[ext_resource type="ArrayMesh" uid="uid://2le2km8v1lob" path="res://Resources/meshes/flotador.tres" id="1_i8llx"]
+
+[resource]
+shadow_mesh = ExtResource("1_i8llx")

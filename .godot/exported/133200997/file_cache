@@ -1,0 +1,36 @@
+res://Resources/img/UI/round_button.tres::aac35c5e6f926d64a91d306ca3d01065::1752315234::res://.godot/exported/133200997/export-b02db1198e754fd63ae7127c7c86192c-round_button.res
+res://Resources/img/UI/start_color_palette.tres::39a8bd8953b196ee3456bd5240644411::1752310626::res://.godot/exported/133200997/export-04d3976cf2e25c09d422e068b107da20-start_color_palette.res
+res://Resources/img/new_noise_texture_2d.tres::347208cf5ea429464acf9c375981ad42::1752511775::res://.godot/exported/133200997/export-4d6fe9ddaddd534da8892b550f5b0bfe-new_noise_texture_2d.res
+res://Resources/meshes/flor.tres::faa5932e73652f15aafda3335d0cb921::1752403527::res://.godot/exported/133200997/export-e57ace20355aa32d5d4acec7c3fc89c5-flor.res
+res://Resources/meshes/flotador.tres::f46cd7f4fff99ed0e2e6d6b468c164f3::1752511775::res://.godot/exported/133200997/export-0b2dfb97f2ea1f8d5a9bdb81b99705e4-flotador.res
+res://Resources/meshes/flotaranja.tres::093864d6abda5e1bebace12cec990441::1752404386::res://.godot/exported/133200997/export-32242ae481c710e37a380a29cc787a7b-flotaranja.res
+res://Resources/meshes/gafas.tres::e10b9ee6de983f8dc81cf219f4c882e4::1752403531::res://.godot/exported/133200997/export-00921663902f2b276b4d66c080677672-gafas.res
+res://Resources/meshes/hoja.tres::394341b0cf62b2691a8e7a2832c35ecf::1752403531::res://.godot/exported/133200997/export-63a4074e23a7d9e828b21f230716e474-hoja.res
+res://Resources/meshes/naranjita.tres::03f895d2de915becdfe454d3e3e2d91a::1752511775::res://.godot/exported/133200997/export-cf7bc3eb2877b20e108aaad5ef19ebce-naranjita.res
+res://Resources/shaders/agua.tres::3ce191bf839c065169787aa248ecdc5d::1752519057::res://.godot/exported/133200997/export-c8b6bfae6e413fcadbffdb9ed6fcfb65-agua.res
+res://Resources/shaders/aguatut.tres::a9882e9cea98d238a6124a2b15ff6aa9::1752392893::res://.godot/exported/133200997/export-bcb7bba81b26e158714428b839468953-aguatut.res
+res://Resources/shaders/aguatut_shader.tres::bb77362c7cdc83ebf6cc63ca4d8d931f::1752393564::res://.godot/exported/133200997/export-aaa1b84faab21f890e02a9e25952dbb5-aguatut_shader.res
+res://Resources/shaders/bottom water.tscn::dd2b3483030c1df3072a678e4f3fd7f3::1752515286::res://.godot/exported/133200997/export-a5c22415142037f78c1fc37acad8dcc2-bottom water.scn
+res://Resources/shaders/flotador2.tres::3c7d797baf015032053adb3dd6230174::1752519057::res://.godot/exported/133200997/export-7abe9057a46f32f36f686f07b22b3c22-flotador2.res
+res://Resources/shaders/flotador.tres::289dd1f2dcd151498de773dd3b62027c::1752519057::res://.godot/exported/133200997/export-a8474c7305cdd8d8fb57ca82246bb375-flotador.res
+res://Resources/shaders/foam.tres::57a99148ca2b621225df6efd82bd4173::1752519057::res://.godot/exported/133200997/export-a15c456c2ee0380091934adbd2746c4c-foam.res
+res://Resources/shaders/lapras.tres::31e54561dfb9902f909432208a1c5b17::1752519057::res://.godot/exported/133200997/export-01e1d11b2c8c119538be234c3e26b40e-lapras.res
+res://Resources/shaders/main_menu.tres::9106f94f54e85210eee9fd03100eab93::1752519057::res://.godot/exported/133200997/export-eff116d340db2f29bb4586f91b009d04-main_menu.res
+res://Resources/shaders/Naranjita.tres::9c335b5d232007554d37e8c26acba21d::1752519057::res://.godot/exported/133200997/export-e2af80fb796cc334b0c0774a2996163f-Naranjita.res
+res://Resources/shaders/water.tres::9cadd897ca141b87e17ed56738d67435::1752519057::res://.godot/exported/133200997/export-46000955bf8aebb9fbd461a6d9e8797f-water.res
+res://Resources/shaders/waterC.tres::9f33eae06046e0bee9389697b30621a8::1752519058::res://.godot/exported/133200997/export-0497f1c2b065ff97f50afbdc53cf2dbd-waterC.res
+res://Resources/Naranja textura.tres::4ff1734051ea964d943f222e1b4c274b::1752519057::res://.godot/exported/133200997/export-4269eeab060320e562900e9c3057fede-Naranja textura.res
+res://Resources/naranjita_veraniega_godot_1.tscn::1fa253e4ec9f44985346f49941d48607::1752369049::res://.godot/exported/133200997/export-b405a8e15875ab6e7cc1101aeeecb4d1-naranjita_veraniega_godot_1.scn
+res://Resources/tut.tres::338258ac429d5b1b06345045cd5dae61::1752519057::res://.godot/exported/133200997/export-878580b8e45eca4b0cc623b1396e6adc-tut.res
+res://scenes/general.tscn::5f503e3c425f7d0758450dd529331548::1752518874::res://.godot/exported/133200997/export-6a4b41c9ab686305d17d1e55f92c82b4-general.scn
+res://scenes/main_menu.tscn::e6ab8a9cb3c74677001ce73cff27950f::1752519057::res://.godot/exported/133200997/export-ea5c6ad4629af728dc514cefde332394-main_menu.scn
+res://scenes/test_options_menu.tscn::b2ed5522ccb23bb8b7bd20a9ce485c7a::1752518873::res://.godot/exported/133200997/export-c67e6c84e1e11e3245dc79d9498abaa5-test_options_menu.scn
+res://button_theme.tres::a1a49c3b6f12940279a98a48ca5d41c4::1752511775::res://.godot/exported/133200997/export-10bc01561baf1945a9253527d50cdb2b-button_theme.res
+res://flotaranja.tscn::25f56774488400771e2fd3d5e92352d7::1752369170::res://.godot/exported/133200997/export-ae44749d1169e79eb7a2e8ebe46a302f-flotaranja.scn
+res://game.tscn::a45e79878a71ce2a573496807ec8c302::1752408232::res://.godot/exported/133200997/export-609f762188a68253d349ec58c4f3a8d3-game.scn
+res://Resources/meshes/naaaaaaaaaaaaaa.tres::d7e5bb226894e7877469541ca0620efa::1752519058::res://.godot/exported/133200997/export-9ac08256aa5c7ac7ec523bae8310da5b-naaaaaaaaaaaaaa.res
+res://Resources/shaders/agua_fondo.tres::e47d4b8d7dd6c10604852dfc949b5384::1752514313::res://.godot/exported/133200997/export-99e90bd4eb0d8596453a171bd65e0d6e-agua_fondo.res
+res://Resources/shaders/naran.tres::0e544a497e742a962ea0ea3c9baf0255::1752514675::res://.godot/exported/133200997/export-2094985241ab10eb5e247ee37b92c40b-naran.res
+res://Resources/old_game_scene.tscn::235fc467a3bc427bdf5f2a8086f593c9::1752407740::res://.godot/exported/133200997/export-2fc2f1fb90ebe12f5e29ebf8aa8fe238-old_game_scene.scn
+res://scenes/game.tscn::8835ca2319a067de978158892d73245e::1752518874::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/node_3d.tres::f019e72a06c43eb0a75fbbabc613c3ef::1752519058::res://.godot/exported/133200997/export-61e5153129df5fdad26b33adfc962edd-node_3d.res
